@@ -14,5 +14,42 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
+
+
+//About page
+Route::get('/about',[
+    'as' => 'about',
+    'uses' => 'App\Http\Controllers\AboutController@show'
+]);
+
+//Team page
+Route::get('/team',[
+    'as' => 'team',
+    'uses' => 'App\Http\Controllers\TeamController@show'
+]);
+
+//Faq page
+Route::get('/faq',[
+    'as' => 'faq',
+    'uses' => 'App\Http\Controllers\FaqController@show'
+]);
+
+//Services page
+Route::get('/services',[
+    'as' => 'services',
+    'uses' => 'App\Http\Controllers\ServicesController@show'
+]);
+
+//Projects page
+Route::get('/projects',[
+    'as' => 'projects',
+    'uses' => 'App\Http\Controllers\ProjectsController@show'
+]);
+
+//Contact page
+Route::get('/contact',[
+    'as' => 'contact',
+    'uses' => 'App\Http\Controllers\ContactController@show'
+]);

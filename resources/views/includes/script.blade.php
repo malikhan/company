@@ -1,0 +1,10 @@
+<script src="{{asset('js/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{asset('js/jquery-ui.js')}}"></script>
+    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
+    <script src="{{asset('js/swiper-bundle.min.js')}}"></script>
+    <script src="{{asset('js/jquery.nice-select.js')}}"></script>
+    <script src="{{asset('js/odometer.min.js')}}"></script>
+    <script src="{{asset('js/viewport.jquery.js')}}"></script>
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('js/main.js')}}"></script>
